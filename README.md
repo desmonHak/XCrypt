@@ -3,8 +3,6 @@ Modulo con funciones de un cifrado propio que  usa doble cable, una de longitud 
 <br>
 > python3<br>
 Python 3.6.9 (default, Jan 26 2021, 15:33:00) <br>
-[GCC 8.4.0] on linux<br>
-Type "help", "copyright", "credits" or "license" for more information.<br>
 >>> import XCrypt<br>
 <br>
 >>> dir(XCrypt)<br>
