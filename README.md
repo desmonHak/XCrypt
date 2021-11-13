@@ -3,6 +3,7 @@ Modulo con funciones de un cifrado propio que  usa doble cable, una de longitud 
 <br>
 
 Python 3.6.9 <br>
+
 >>> import XCrypt<br >
 >>> dir(XCrypt)<br >
 ['__Vpython__', '__author__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', 'array_calculo', 'crypt', 'decrypt']
