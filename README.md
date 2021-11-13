@@ -20,5 +20,73 @@ Type "help", "copyright", "credits" or "license" for more information.
 'hola mundo\x00\x00'
 
 >>> 
+```
+<br>
+Esta es la ayuda que ofrece el modulo haciendo help(XCrypt).
+```
+Help on module XCrypt:
+
+NAME
+    XCrypt - --- algortimo de cifrado  de doble clave ---
+
+DESCRIPTION
+    Modulo para cifrado de datos. Generando claves unicas
+    para la descompresion de los datos.
+
+FUNCTIONS
+    array_calculo(texto)
+        Esta funcion se usa para calcular el array bidimensional y 
+        otorgar los valores dentro de ellos, tambien calculo otro tipo
+        de datos.
+        ---------------------------
+        input  = texto(string)
+        ===========================
+        output = arr(dicionario)
+        ---------------------------
+        
+        El dicionario de salida tiene la siguiente estructura:
+        arr = {
+                "array" : ( list(), list() ),
+                "valor-total":0,
+                "size" : [2, 0]
+        }
+    
+    crypt(texto)
+        Esta funcion es la encargada de codificar los datos.
+        -----------------------------
+        Input = texto(string)
+        =============================
+        Output = output(dicionario)
+        -----------------------------
+        El dicionario de salida tiene la siguiente forma:
+        
+        output = {
+                "datos-cifrados": list(),
+                "clave-local": list(),
+                "clave-secundaria" : str(),
+                "size": arr["size"],
+                "array-calculo":arr
+        }
+    
+    decrypt(datos_cifrados, clave_secundaria, clave_local)
+        Se usa para descodificar los datos.
+        --------------------------------------------------------
+        Input = datos_cifrados(lista), clave_secundaria(string), 
+                clave_local(lista)
+        ========================================================
+        Output = texto(string)
+        ---------------------------------------------------------
+
+DATA
+    __Vpython__ = 2.17
+
+VERSION
+    1.0
+
+AUTHOR
+    Desmon
+
+FILE
+    /home/kodachi/Desktop/XCrypt.py
 
 ```
