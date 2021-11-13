@@ -23,7 +23,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 <br>
 Esta es la ayuda que ofrece el modulo haciendo help(XCrypt).
-```
+````
 Help on module XCrypt:
 
 NAME
@@ -89,4 +89,4 @@ AUTHOR
 FILE
     /home/kodachi/Desktop/XCrypt.py
 
-```
+````
