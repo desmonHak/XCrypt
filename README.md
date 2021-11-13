@@ -2,7 +2,7 @@
 Modulo con funciones de un cifrado propio que  usa doble cable, una de longitud dinamica a los datos y otra estatica, ambas son necesarias para obetner los datos.
 <br>
 
-Python 3.6.9 (default, Jan 26 2021, 15:33:00) <br>
+Python 3.6.9 <br>
 >>> import XCrypt<br>
 <br>
 >>> dir(XCrypt)<br>
