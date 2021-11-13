@@ -38,11 +38,11 @@ FUNCTIONS
         Esta funcion se usa para calcular el array bidimensional y 
         otorgar los valores dentro de ellos, tambien calculo otro tipo
         de datos.
-        ---------------------------
+        
         input  = texto(string)
-        ===========================
+        
         output = arr(dicionario)
-        ---------------------------
+        
         
         El dicionario de salida tiene la siguiente estructura:
         arr = {
@@ -53,11 +53,11 @@ FUNCTIONS
     
     crypt(texto)
         Esta funcion es la encargada de codificar los datos.
-        -----------------------------
+        
         Input = texto(string)
-        =============================
+        
         Output = output(dicionario)
-        -----------------------------
+        
         El dicionario de salida tiene la siguiente forma:
         
         output = {
@@ -70,12 +70,12 @@ FUNCTIONS
     
     decrypt(datos_cifrados, clave_secundaria, clave_local)
         Se usa para descodificar los datos.
-        --------------------------------------------------------
+        
         Input = datos_cifrados(lista), clave_secundaria(string), 
                 clave_local(lista)
-        ========================================================
+        
         Output = texto(string)
-        ---------------------------------------------------------
+        
 
 DATA
     __Vpython__ = 2.17
