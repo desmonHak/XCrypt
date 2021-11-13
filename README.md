@@ -27,7 +27,7 @@ Esta es la ayuda que ofrece el modulo haciendo help(XCrypt).
 Help on module XCrypt:
 
 NAME
-    XCrypt - --- algortimo de cifrado  de doble clave ---
+    XCrypt  algortimo de cifrado  de doble clave 
 
 DESCRIPTION
     Modulo para cifrado de datos. Generando claves unicas
